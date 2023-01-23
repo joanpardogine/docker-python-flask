@@ -30,7 +30,11 @@ sudo apt install python3.8
     * **Python Extension**. La extension de Python es muy util para poder leer entornos virtuales y poder tener autocompletado dentro del editor, asi como sugerencias
 
 
+## Instalación del gestor de paquetes **```pip```**.
+
+```sh
 sudo apt-get install pip
+```
 
 
 
