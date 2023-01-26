@@ -123,8 +123,20 @@ Para este ejemplo estaremos usando la [imagen oficial de Python para Docker](htt
 Pero antes de colocar nuestra aplicacion en un contenedor.
 
 Primero generemos un archivo que liste todos los paquetes que son necesarios para que funcione nuestra aplicación:
+
+# NO FER AQUESTA COMANDA!!!
 ```sh
 pip freeze > requirements.txt
+```
+
+# FER AQUESTA COMANDA!!!
+```sh
+click==7.1.2 > requirements.txt
+Flask==1.1.2 >> requirements.txt
+itsdangerous==1.1.0 >> requirements.txt
+Jinja2==2.11.3 >> requirements.txt
+MarkupSafe==1.1.1 >> requirements.txt
+Werkzeug==1.0.1 >> requirements.txt
 ```
 
 Ahora si, creemos nuestro archivo **```Dockerfile```**.
