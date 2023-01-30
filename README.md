@@ -131,12 +131,12 @@ pip freeze > requirements.txt
 
 # FER AQUESTA COMANDA!!!
 ```sh
-click==7.1.2 > requirements.txt
-Flask==1.1.2 >> requirements.txt
-itsdangerous==1.1.0 >> requirements.txt
-Jinja2==2.11.3 >> requirements.txt
-MarkupSafe==1.1.1 >> requirements.txt
-Werkzeug==1.0.1 >> requirements.txt
+echo 'click==7.1.2' > requirements.txt
+echo 'Flask==1.1.2' >> requirements.txt
+echo 'itsdangerous==1.1.0' >> requirements.txt
+echo 'Jinja2==2.11.3' >> requirements.txt
+echo 'MarkupSafe==1.1.1' >> requirements.txt
+echo 'Werkzeug==1.0.1' >> requirements.txt
 ```
 
 Ahora si, creemos nuestro archivo **```Dockerfile```**.
